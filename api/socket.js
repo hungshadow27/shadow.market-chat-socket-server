@@ -6,7 +6,7 @@ const ioHandler = (req, res) => {
     const io = new Server(res.socket.server, {
       path: "/api/socket",
       cors: {
-        origin: "https://shadow-market-cc.vercel.app",
+        origin: "https://shadow-market-nextjs-frontend.vercel.app",
         methods: ["GET", "POST"],
       },
     });
