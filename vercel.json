@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "functions": {
-    "api/socket.js": {
-      "memory": 300,
-      "maxDuration": 10
-    }
-  }
-}
